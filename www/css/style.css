@@ -371,6 +371,10 @@ header{
   text-decoration: underline;
 }
 
+.all-news a:hover{
+  color: #000;
+}
+
 .need-help{
   color: #fff;
   display: flex;
@@ -408,4 +412,135 @@ header{
 
 .need-help .need-help-phone{
   font-size: 53px;
+}
+
+.about-us{
+  margin-top: 105px;
+  margin-bottom: 245px;
+}
+
+.about-us .section-title{
+  margin-bottom: 95px;
+}
+
+#about-us-carousel .carousel-item .client-card-row{
+  display: flex;
+  justify-content: center;
+}
+
+#about-us-carousel .carousel-item .client-card{
+  width: 45%;
+  display: flex;
+  align-items: flex-start;
+}
+
+#about-us-carousel .carousel-item .client-card-text{
+  padding: 30px 25px 25px 25px;
+}
+
+#about-us-carousel .carousel-item .client-card-text .client-name{
+  font-size: 23px;
+}
+
+#about-us-carousel .carousel-item .client-card-text .client-comment{
+  margin-top: 16px;
+  padding: 34px 24px 18px 24px;
+  border-radius: 21px;
+  box-shadow: -6px 0 40px rgba(0,0,0,0.15);
+  color: #000000;
+  line-height: 1.5;
+  font-size: 18px;
+  position: relative;
+}
+
+#about-us-carousel .carousel-item .client-card-text .client-comment:after{
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 25px;
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-right: 50px solid #fff;
+  border-bottom: 25px solid transparent;
+}
+
+#about-us-carousel .carousel-item .client-card-text .full-comment{
+  font-size: 17px;
+  display: block;
+  margin-top: 20px;
+  color: #820100;
+  text-decoration: underline;
+  text-align: right;
+}
+
+#about-us-carousel .carousel-item .client-card-text .full-comment:hover{
+  color: #000;
+}
+
+.carousel-control-prev, .carousel-control-next{
+  width: 50px;
+  height: 50px;
+  background-color: #929292;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+footer{
+  background-color: #6B0100;
+  color: #fff;
+  padding: 33px 0 25px;
+}
+
+footer .container{
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .logo{
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 31px;
+}
+
+footer .logo img{
+  margin-right: 15px;
+  height: 53px;
+}
+
+footer .copyright{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+footer .copyright-text{
+  font-size: 13px;
+  line-height: 1.2;
+}
+
+footer .footer-right{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+footer nav{
+  font-size: 21px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+footer nav a + a{
+  margin-left: 43px;
+}
+
+footer .adress{
+  font-size: 13px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+footer .confidentiality{
+  font-size: 16px;
+  text-decoration: underline;
 }
