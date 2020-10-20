@@ -330,3 +330,82 @@ header{
   font-size: 18px;
   line-height: 1.2;
 }
+
+.news{
+  margin-top: 130px;
+}
+
+.news-row{
+  margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -7px;
+}
+
+.news-item{
+  padding: 7px;
+  width: 33.333%;
+  display: flex;
+}
+
+.news-text{
+  margin-left: 14px;
+  line-height: 1.2;
+}
+
+.news-text a{
+  font-size: 17px;
+  color: #820100;
+}
+
+.news-text p{
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.all-news{
+  margin-top: 40px;
+  text-align: center;
+  color: #820100;
+  font-size: 17px;
+  text-decoration: underline;
+}
+
+.need-help{
+  color: #fff;
+  display: flex;
+  margin-top: 150px;
+  background: linear-gradient(90deg, rgba(179,179,179,1) 50%, rgba(107,1,0,1) 50%);
+}
+
+.need-help .img-container{
+  position: relative;
+  width: 50%;
+}
+
+.need-help .img-container img{
+  position: absolute;
+  right: 0;
+  height: 100%;
+}
+
+.need-help .need-help-text{
+  padding: 90px 0 90px 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.need-help .need-help-big{
+  font-size: 37px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+
+.need-help .need-help-small{
+  font-size: 27px;
+  margin-bottom: 35px;
+}
+
+.need-help .need-help-phone{
+  font-size: 53px;
+}
