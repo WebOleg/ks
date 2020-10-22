@@ -291,7 +291,7 @@ header{
     margin-top: 10px;
   }
   .clients-row img {
-    width: 28%;
+    width: 12%;
     margin-top: 20px;
   }
 }
@@ -624,7 +624,7 @@ header{
     background-size: 30% auto;
   }
 }
-@media (max-width: 991px){
+@media (max-width: 767px){
   .about .about-content {
     padding-left: 0;
     background-image: url('../img/about.png');
@@ -721,7 +721,7 @@ header{
     margin-top: 20px;
   }
 }
-@media (max-width: 1199px){
+@media (max-width: 767px){
   .news-item {
     width: 100%;
   }
@@ -921,7 +921,7 @@ header{
   }
 
 }
-@media (max-width: 991px){
+@media (max-width: 767px){
   #about-us-carousel .carousel-item .client-card {
     width: 68%;
     padding: 10px;
@@ -942,6 +942,15 @@ header{
   #about-us-carousel .carousel-control-prev, .carousel-control-next{
     height: 100%;
   }
+}
+@media(max-width: 575px){
+  #about-us-carousel .carousel-item .client-card + .client-card {
+    margin-top: 0;
+  }
+  #about-us-carousel .carousel-item .client-card-text .client-name {
+    font-size: 16px;
+  }
+
 }
 
 
